@@ -80,7 +80,7 @@ export const meta: MetaFunction<typeof loader, { root: RootLoaderType }> = ({
 }) => {
 	const { seasons } = (data as LoaderData | undefined) ?? {}
 	if (!seasons) {
-		return [{ title: 'Chats with Kent Seasons not found' }]
+		return [{ title: 'Chats with James Seasons not found' }]
 	}
 	const episodeCount = seasons.reduce(
 		(acc, season) => acc + season.episodes.length,
@@ -90,12 +90,12 @@ export const meta: MetaFunction<typeof loader, { root: RootLoaderType }> = ({
 	const requestInfo = matches.find((m) => m.id === 'root')?.data.requestInfo
 
 	return getSocialMetas({
-		title: 'Chats with Kent C. Dodds Podcast',
+		title: 'Chats with James Archers Podcast',
 		description: `Become a better person with ${episodeCount} interesting and actionable conversations with interesting people.`,
-		keywords: `chats with kent, kent c. dodds`,
+		keywords: `chats with James, James Archers`,
 		url: getUrl(requestInfo),
 		image: getGenericSocialImage({
-			words: 'Listen to the Chats with Kent Podcast',
+			words: 'Listen to the Chats with James Podcast',
 			featuredImage: images.kayak.id,
 			url: getDisplayUrl({
 				origin: getOrigin(requestInfo),
@@ -139,7 +139,7 @@ function PodcastHome() {
 	return (
 		<>
 			<HeroSection
-				title="Listen to chats with Kent C. Dodds here."
+				title="Listen to chats with James Archers here."
 				subtitle="Find all episodes of my podcast below."
 				imageBuilder={images.kayak}
 				imageSize="large"
@@ -209,7 +209,7 @@ function PodcastHome() {
 					<H4 as="p">{`What's this all about?`}</H4>
 					<div className="flex flex-col gap-3">
 						<Paragraph>
-							{`The goal of the Chats with Kent Podcast is to `}
+							{`The goal of the Chats with James Podcast is to `}
 							<strong>help you become a better person.</strong>
 							{`
                 With each episode, there's a key takeaway and a specific action
@@ -294,7 +294,7 @@ function PodcastHome() {
 							as="h2"
 							className="col-span-full mb-10 flex flex-col lg:mb-0 lg:flex-row"
 						>
-							<span>Chats with Kent C. Dodds</span>
+							<span>Chats with James Archers</span>
 							&nbsp;
 							<span>{`Season ${currentSeason.seasonNumber} — ${currentSeason.episodes.length} episodes`}</span>
 						</H6>

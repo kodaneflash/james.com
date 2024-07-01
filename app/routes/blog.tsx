@@ -67,7 +67,7 @@ export const links: LinksFunction = () => {
 		{
 			rel: 'alternate',
 			type: 'application/rss+xml',
-			title: 'Kent C. Dodds Blog',
+			title: 'James Archer Blog',
 			href: '/blog/rss.xml',
 		},
 	]
@@ -132,12 +132,12 @@ export const meta: MetaFunction<typeof loader, { root: RootLoaderType }> = ({
 	const requestInfo = matches.find((m) => m.id === 'root')?.data.requestInfo
 	const { totalBlogReaders, posts } = data as SerializeFrom<typeof loader>
 	return getSocialMetas({
-		title: 'The Kent C. Dodds Blog',
+		title: 'The James Archer Blog',
 		description: `Join ${totalBlogReaders} people who have read Kent's ${formatNumber(
 			posts.length,
 		)} articles on JavaScript, TypeScript, React, Testing, Career, and more.`,
 		keywords:
-			'JavaScript, TypeScript, React, Testing, Career, Software Development, Kent C. Dodds Blog',
+			'JavaScript, TypeScript, React, Testing, Career, Software Development, James Archer Blog',
 		url: getUrl(requestInfo),
 		image: getSocialImageWithPreTitle({
 			url: getDisplayUrl(requestInfo),
@@ -588,7 +588,7 @@ function BlogHome() {
 					<H2 className="mb-8">{`More of a listener?`}</H2>
 					<H2 className="mb-16" variant="secondary" as="p">
 						{`
-              Check out my podcast Chats with Kent and learn about software
+              Check out my podcast Chats with James and learn about software
               development, career, life, and more.
             `}
 					</H2>

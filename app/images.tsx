@@ -6,7 +6,7 @@ import { type CSSProperties } from 'react'
 import { optionalTeams, toBase64, type OptionalTeam } from './utils/misc.tsx'
 
 setConfig({
-	cloudName: 'kentcdodds-com',
+	cloudName: 'imaginify',
 })
 
 type ImageBuilder = {
@@ -61,12 +61,12 @@ const images = createImages({
 	},
 	kentTransparentProfile: {
 		id: 'kent/profile-transparent',
-		alt: 'Kent C. Dodds',
+		alt: 'James Archer',
 		style: square,
 	},
 	kentProfile: {
 		id: 'kent/profile',
-		alt: 'Kent C. Dodds',
+		alt: 'James Archer',
 		style: square,
 	},
 	kentSnowSports: {
@@ -156,7 +156,7 @@ const images = createImages({
 	},
 	getToKnowKentVideoThumbnail: {
 		id: 'kent/video-stills/get-to-know-kent-video-thumbnail',
-		alt: 'Kent in the air on a snowboard with the words "Get to know Kent C. Dodds"',
+		alt: 'Kent in the air on a snowboard with the words "Get to know James Archer"',
 		style: { aspectRatio: '16/9' },
 	},
 	kodyProfileYellow: {
@@ -738,7 +738,7 @@ function getSocialImageWithPreTitle({
 	const featuredImageSection = `c_fill,ar_3:4,r_12,g_east,h_$gh_mul_10,x_$gw,${featuredImageLayerType}${featuredImageCloudinaryId}`
 
 	return [
-		`https://res.cloudinary.com/kentcdodds-com/image/upload`,
+		`https://res.cloudinary.com/imaginify/image/upload`,
 		vars,
 		preTitleSection,
 		titleSection,
@@ -746,7 +746,7 @@ function getSocialImageWithPreTitle({
 		kentNameSection,
 		urlSection,
 		featuredImageSection,
-		`c_fill,w_$tw,h_$th/kentcdodds.com/social-background.png`,
+		`c_fill,w_$tw,h_$th/jamesarcher.io/social-background.png`,
 	].join('/')
 }
 
@@ -778,9 +778,9 @@ function getGenericSocialImage({
 
 	const featureImageSection = `c_fit,g_east,w_$gw_mul_11,h_$gh_mul_11,x_$gw,${featuredImageLayerType}${featuredImageCloudinaryId}`
 
-	const backgroundSection = `c_fill,w_$tw,h_$th/kentcdodds.com/social-background.png`
+	const backgroundSection = `c_fill,w_$tw,h_$th/jamesarcher.io/social-background.png`
 	return [
-		`https://res.cloudinary.com/kentcdodds-com/image/upload`,
+		`https://res.cloudinary.com/imaginify/image/upload`,
 		vars,
 		primaryWordsSection,
 		kentProfileSection,

@@ -22,7 +22,7 @@ const miscHandlers = [
 		return passthrough()
 	}),
 	http.get(
-		'https://res.cloudinary.com/kentcdodds-com/image/upload/w_100,q_auto,f_webp,e_blur:1000/unsplash/:photoId',
+		'https://res.cloudinary.com/imaginify/image/upload/w_100,q_auto,f_webp,e_blur:1000/unsplash/:photoId',
 		async () => {
 			if (await isConnectedToTheInternet()) return passthrough()
 
@@ -32,7 +32,7 @@ const miscHandlers = [
 			return HttpResponse.json(buffer)
 		},
 	),
-	http.get(/res.cloudinary.com\/kentcdodds-com\//, () => {
+	http.get(/res.cloudinary.com\/imaginifym\//, () => {
 		return passthrough()
 	}),
 	http.post(

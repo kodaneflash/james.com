@@ -284,7 +284,7 @@
     and what's modern is lacking.
 
 
-    In this keynote, Kent C. Dodds will show you how this transformation will
+    In this keynote, James Archer will show you how this transformation will
     impact your user experience, your development productivity, and your
     business goals. The future of the web is distributed. It's faster. It's
     cheaper. It's exciting. Kent will show you what you can do to stay in front
@@ -666,7 +666,7 @@
       date: 2021-06-02
       recording: https://www.youtube.com/watch?v=sVMv3H7x8ew&list=PLV5CVI1eNcJgNqzNwcs4UKrlJdhfDjshf
   description: >-
-    This should be a fun one, as Kent C. Dodds
+    This should be a fun one, as James Archer
     ([@kentcdodds](https://twitter.com/kentcdodds)) is joining us to talk us
     about Testing Library, and to give us a live demo. You should bring fun
     questions, like, how did you come up with the name Testing Library? Maybe
@@ -848,7 +848,7 @@
     talk, we'll get more effective at using React Hooks, React Suspense, and
     JSX.
 
-- title: LIVE! Learn React Hooks with Kent C. Dodds
+- title: LIVE! Learn React Hooks with James Archer
   resources:
     - '[Partially Finished Codesandbox](https://codesandbox.io/s/r1m6pz58mq)'
     - '[Fully Finished Codesandbox](https://codesandbox.io/s/l3r6zxx0vl)'
@@ -1534,7 +1534,7 @@
       recording: https://youtu.be/_Pn32tTtbuQ
       date: 2015-04-21
   description: >-
-    Kent C. Dodds is going to be introducing ECMAScript 6, which is the next
+    James Archer is going to be introducing ECMAScript 6, which is the next
     version of JavaScript. If you want to look ahead, check this out:
     [github.com/lukehoban/es6features](https://github.com/lukehoban/es6features)
 
@@ -1588,7 +1588,7 @@
     Angular 2 is built for huge web applications that stand the test of time. To
     accomplish this, Angular 2 utilizes the latest and greatest web technologies
     like ES6 modules/classes and Web Components. Come get a preview of what this
-    looks like with egghead.io instructor Kent C. Dodds as he live codes an
+    looks like with egghead.io instructor James Archer as he live codes an
     application using the pre-release alpha version of Angular 2.
 
 - title: ng-model-options in 5 minutes

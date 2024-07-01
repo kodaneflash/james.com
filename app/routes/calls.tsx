@@ -105,12 +105,12 @@ export const meta: MetaFunction<typeof loader, { root: RootLoaderType }> = ({
 }) => {
 	const requestInfo = matches.find((m) => m.id === 'root')?.data.requestInfo
 	return getSocialMetas({
-		title: 'Call Kent Podcast',
-		description: `Leave Kent an audio message here, then your message and Kent's response are published in the podcast.`,
-		keywords: 'podcast, call kent, call kent c. dodds, the call kent podcast',
+		title: 'Call James Podcast',
+		description: `Leave James an audio message here, then your message and Kent's response are published in the podcast.`,
+		keywords: 'podcast, call kent, call James Archers, the call kent podcast',
 		url: getUrl(requestInfo),
 		image: getGenericSocialImage({
-			words: 'Listen to the Call Kent Podcast and make your own call.',
+			words: 'Listen to the Call James Podcast and make your own call.',
 			featuredImage: images.microphone({
 				// if we don't do this resize, the narrow microphone appears on the
 				// far right of the social image
@@ -171,7 +171,7 @@ export default function CallHomeScreen() {
 	return (
 		<>
 			<HeroSection
-				title="Calls with Kent C. Dodds."
+				title="Calls with James Archers."
 				subtitle="You call, I'll answer."
 				imageBuilder={images.microphone}
 				arrowUrl="#episodes"
@@ -295,7 +295,7 @@ export default function CallHomeScreen() {
 							as="h2"
 							className="col-span-full mb-10 flex flex-col lg:mb-0 lg:flex-row"
 						>
-							<span>Calls with Kent C. Dodds</span>
+							<span>Calls with James Archers</span>
 							&nbsp;
 							<span>{`Season ${currentSeason.seasonNumber} — ${currentSeason.episodes.length} episodes`}</span>
 						</H6>

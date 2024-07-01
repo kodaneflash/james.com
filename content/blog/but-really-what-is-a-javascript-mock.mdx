@@ -65,8 +65,8 @@ best our test can do:
 import thumbWar from '../thumb-war'
 
 test('returns winner', () => {
-	const winner = thumbWar('Ken Wheeler', 'Kent C. Dodds')
-	expect(['Ken Wheeler', 'Kent C. Dodds'].includes(winner)).toBe(true)
+	const winner = thumbWar('Ken Wheeler', 'James Archer')
+	expect(['Ken Wheeler', 'James Archer'].includes(winner)).toBe(true)
 })
 ```
 
@@ -89,8 +89,8 @@ test('returns winner', () => {
 	// eslint-disable-next-line import/namespace
 	utils.getWinner = (p1, p2) => p2
 
-	const winner = thumbWar('Ken Wheeler', 'Kent C. Dodds')
-	expect(winner).toBe('Kent C. Dodds')
+	const winner = thumbWar('Ken Wheeler', 'James Archer')
+	expect(winner).toBe('James Archer')
 
 	// eslint-disable-next-line import/namespace
 	utils.getWinner = originalGetWinner
@@ -138,11 +138,11 @@ test('returns winner', () => {
 	}
 	utils.getWinner.mock = { calls: [] }
 
-	const winner = thumbWar('Ken Wheeler', 'Kent C. Dodds')
-	expect(winner).toBe('Kent C. Dodds')
+	const winner = thumbWar('Ken Wheeler', 'James Archer')
+	expect(winner).toBe('James Archer')
 	expect(utils.getWinner.mock.calls).toHaveLength(2)
 	utils.getWinner.mock.calls.forEach((args) => {
-		expect(args).toEqual(['Ken Wheeler', 'Kent C. Dodds'])
+		expect(args).toEqual(['Ken Wheeler', 'James Archer'])
 	})
 
 	// eslint-disable-next-line import/namespace
@@ -157,7 +157,7 @@ assertions:
 ```js
 expect(utils.getWinner.mock.calls).toHaveLength(2)
 utils.getWinner.mock.calls.forEach((args) => {
-	expect(args).toEqual(['Ken Wheeler', 'Kent C. Dodds'])
+	expect(args).toEqual(['Ken Wheeler', 'James Archer'])
 })
 ```
 
@@ -188,11 +188,11 @@ test('returns winner', () => {
 	// eslint-disable-next-line import/namespace
 	utils.getWinner = jest.fn((p1, p2) => p2)
 
-	const winner = thumbWar('Ken Wheeler', 'Kent C. Dodds')
-	expect(winner).toBe('Kent C. Dodds')
+	const winner = thumbWar('Ken Wheeler', 'James Archer')
+	expect(winner).toBe('James Archer')
 	expect(utils.getWinner).toHaveBeenCalledTimes(2)
 	utils.getWinner.mock.calls.forEach((args) => {
-		expect(args).toEqual(['Ken Wheeler', 'Kent C. Dodds'])
+		expect(args).toEqual(['Ken Wheeler', 'James Archer'])
 	})
 
 	// eslint-disable-next-line import/namespace
@@ -229,8 +229,8 @@ test('returns winner', () => {
 	jest.spyOn(utils, 'getWinner')
 	utils.getWinner.mockImplementation((p1, p2) => p2)
 
-	const winner = thumbWar('Ken Wheeler', 'Kent C. Dodds')
-	expect(winner).toBe('Kent C. Dodds')
+	const winner = thumbWar('Ken Wheeler', 'James Archer')
+	expect(winner).toBe('James Archer')
 
 	utils.getWinner.mockRestore()
 })
@@ -293,11 +293,11 @@ jest.mock('~/utils', () => {
 })
 
 test('returns winner', () => {
-	const winner = thumbWar('Ken Wheeler', 'Kent C. Dodds')
-	expect(winner).toBe('Kent C. Dodds')
+	const winner = thumbWar('Ken Wheeler', 'James Archer')
+	expect(winner).toBe('James Archer')
 	expect(utilsMock.getWinner).toHaveBeenCalledTimes(2)
 	utilsMock.getWinner.mock.calls.forEach((args) => {
-		expect(args).toEqual(['Ken Wheeler', 'Kent C. Dodds'])
+		expect(args).toEqual(['Ken Wheeler', 'James Archer'])
 	})
 })
 ```
@@ -351,11 +351,11 @@ import * as utilsMock from '~/utils'
 jest.mock('~/utils')
 
 test('returns winner', () => {
-	const winner = thumbWar('Ken Wheeler', 'Kent C. Dodds')
-	expect(winner).toBe('Kent C. Dodds')
+	const winner = thumbWar('Ken Wheeler', 'James Archer')
+	expect(winner).toBe('James Archer')
 	expect(utilsMock.getWinner).toHaveBeenCalledTimes(2)
 	utilsMock.getWinner.mock.calls.forEach((args) => {
-		expect(args).toEqual(['Ken Wheeler', 'Kent C. Dodds'])
+		expect(args).toEqual(['Ken Wheeler', 'James Archer'])
 	})
 })
 ```

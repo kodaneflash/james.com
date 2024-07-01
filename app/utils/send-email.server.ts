@@ -62,7 +62,7 @@ async function sendMagicLinkEmail({
 	user?: User | null
 	domainUrl: string
 }) {
-	const sender = `"Kent C. Dodds Team" <team+kcd@kentcdodds.com>`
+	const sender = `"James Archer Team" <team+kcd@kentcdodds.com>`
 	const { hostname } = new URL(domainUrl)
 	const userExists = Boolean(user)
 
@@ -125,7 +125,7 @@ P.S. If you did not request this email, you can safely ignore it.
 
       <br />
 
-      <center><img src="https://res.cloudinary.com/kentcdodds-com/image/upload/w_800,q_auto,f_auto/${
+      <center><img src="https://res.cloudinary.com/imaginify/image/upload/w_800,q_auto,f_auto/${
 				randomSportyKody.id
 			}" style="max-width: 80%;${
 				randomSportyKody.style?.aspectRatio

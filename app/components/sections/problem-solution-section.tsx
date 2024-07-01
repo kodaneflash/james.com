@@ -237,11 +237,11 @@ function ProblemSolutionSection({
               to enjoy like
             `}
 						<Link prefetch="intent" to="/chats">
-							Chats with Kent
+							Chats with James
 						</Link>
 						{`, `}
 						<Link prefetch="intent" to="/calls">
-							Call Kent
+							Call James
 						</Link>
 						{`, and `}
 						<a href="https://epicreact.dev/podcast">
@@ -263,7 +263,7 @@ function ProblemSolutionSection({
 					</Paragraph>
 
 					<ArrowLink to="/chats" className="mt-14">
-						Start listening to chats with Kent
+						Start listening to chats with James
 					</ArrowLink>
 				</ContentPanel>
 			</TabPanels>

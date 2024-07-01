@@ -14,7 +14,7 @@
 #   instagram: https://www.instagram.com/username
 #   linkedin: https://www.linkedin.com/in/username
 
-- name: Kent C. Dodds
+- name: James Archer
   cloudinaryId: kent/profile
   role: A bit of everything
   description: >-
@@ -74,7 +74,7 @@
   cloudinaryId: kentcdodds.com/content/credits/cree
   role: Podcast Production
   description: >-
-    Cree helped produce and edit the new season of Chats with Kent.
+    Cree helped produce and edit the new season of Chats with James.
   x: https://x.com/CProvinsal
 
 - name: Maggie Appleton
@@ -113,7 +113,7 @@
   cloudinaryId: kentcdodds.com/content/credits/sean-olszewski
   role: Audio Magic
   description: >-
-    Sean worked on the audio for the launch video as well as the Chats with Kent
+    Sean worked on the audio for the launch video as well as the Chats with James
     podcast.
   x: https://x.com/__chefski__
   github: https://github.com/SeanROlszewski

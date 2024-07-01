@@ -64,11 +64,11 @@ export const action = async ({ request }: DataFunctionArgs) => {
 
 			// this bit is included so I can have a filter that ensures
 			// messages sent from the contact form never end up in spam.
-			const noSpamMessage = '- Sent via the KCD Contact Form'
+			const noSpamMessage = '- Sent via the JAM Contact Form'
 
 			await sendEmail({
 				from: sender,
-				to: `"Kent C. Dodds" <me@kentcdodds.com>`,
+				to: `"James Archer" <me@kentcdodds.com>`,
 				subject,
 				text: `${body}\n\n${noSpamMessage}`,
 			})
@@ -89,8 +89,8 @@ export const meta: MetaFunction<{}, { root: RootLoaderType }> = ({
 }) => {
 	const requestInfo = matches.find((m) => m.id === 'root')?.data.requestInfo
 	return getSocialMetas({
-		title: 'Contact Kent C. Dodds',
-		description: 'Send Kent C. Dodds a personal email.',
+		title: 'Contact James Archer',
+		description: 'Send James Archer a personal email.',
 		url: getUrl(requestInfo),
 		image: getGenericSocialImage({
 			url: getDisplayUrl(requestInfo),

@@ -71,15 +71,15 @@ export const meta: MetaFunction<typeof loader, { root: RootLoaderType }> = ({
 }) => {
 	const requestInfo = matches.find((m) => m.id === 'root')?.data.requestInfo
 	return getSocialMetas({
-		title: 'About Kent C. Dodds',
-		description: 'Get to know Kent C. Dodds',
-		keywords: 'about, kent, kent c. dodds, kent dodds',
+		title: 'About James Archer',
+		description: 'Get to know James Archer',
+		keywords: 'about, kent, James Archer, kent dodds',
 		url: getUrl(requestInfo),
 		image: getSocialImageWithPreTitle({
 			url: getDisplayUrl(requestInfo),
 			featuredImage: 'kent/video-stills/snowboard-butter',
 			preTitle: 'Get to know',
-			title: `Kent C. Dodds`,
+			title: `James Archer`,
 		}),
 	})
 }
@@ -98,7 +98,7 @@ function AboutIndex() {
 	return (
 		<>
 			<HeroSection
-				title="Hi, I'm Kent C. Dodds, I'm a full time educator."
+				title="Hi, I'm James Archer, I'm a full time educator."
 				subtitle="I make the world a better place by teaching people like you how to make quality software."
 				imageBuilder={images.snowboard}
 				arrowUrl="#about-me"
@@ -123,7 +123,7 @@ function AboutIndex() {
 							<LiteYouTubeEmbed
 								id="sxcRxZpUJWo"
 								announce="Watch"
-								title="Get to know Kent C. Dodds"
+								title="Get to know James Archer"
 								// We don't show the poster, so we use the lowest-res version
 								poster="default"
 								params={new URLSearchParams({

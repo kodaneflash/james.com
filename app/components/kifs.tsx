@@ -6,18 +6,18 @@ export function MissingSomething(
 	props: Omit<CloudinaryVideoProps, 'cloudinaryId'>,
 ) {
 	return (
-		<CloudinaryVideo cloudinaryId="kentcdodds.com/misc/where_am_i" {...props} />
+		<CloudinaryVideo cloudinaryId="imaginify/misc/where_am_i" {...props} />
 	)
 }
 
 export function Grimmacing(props: Omit<CloudinaryVideoProps, 'cloudinaryId'>) {
 	return (
-		<CloudinaryVideo cloudinaryId="kentcdodds.com/misc/grimmace" {...props} />
+		<CloudinaryVideo cloudinaryId="imaginify/misc/grimmace" {...props} />
 	)
 }
 
 export function Facepalm(props: Omit<CloudinaryVideoProps, 'cloudinaryId'>) {
 	return (
-		<CloudinaryVideo cloudinaryId="kentcdodds.com/misc/facepalm" {...props} />
+		<CloudinaryVideo cloudinaryId="imaginify/misc/facepalm" {...props} />
 	)
 }

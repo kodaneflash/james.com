@@ -133,7 +133,7 @@ export default function SubscribeScreen() {
                 valuable notifications for when I create new opportunities to
                 improve yourself. When I launch a new season of
               `}
-							<Link to="/chats">Chats with Kent</Link>
+							<Link to="/chats">Chats with James</Link>
 							{`,
                 give a discount on my courses, or have any number of other
                 exciting announcements, you'll be the first to know.

@@ -104,7 +104,7 @@ type Link = {
 	url: string
 }
 /**
- * Chats with Kent Podcast Episode
+ * Chats with James Podcast Episode
  */
 type CWKEpisode = {
 	slug: string
@@ -135,7 +135,7 @@ type CWKEpisode = {
 }
 
 /**
- * Chats with Kent Podcast List Item
+ * Chats with James Podcast List Item
  */
 type CWKListItem = Pick<
 	CWKEpisode,

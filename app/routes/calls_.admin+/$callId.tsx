@@ -114,12 +114,12 @@ export const action: ActionFunction = async ({ request, params }) => {
 			try {
 				void sendEmail({
 					to: call.user.email,
-					from: `"Kent C. Dodds" <hello+calls@kentcdodds.com>`,
-					subject: `Your "Call Kent" episode has been published`,
+					from: `"James Archer" <hello+calls@kentcdodds.com>`,
+					subject: `Your "Call James" episode has been published`,
 					text: `
 Hi ${call.user.firstName},
 
-Thanks for your call. Kent just replied and the episode has been published to the podcast!
+Thanks for your call. James just replied and the episode has been published to the podcast!
 
 [![${title}](${imageUrl})](${episodeUrl})
           `.trim(),

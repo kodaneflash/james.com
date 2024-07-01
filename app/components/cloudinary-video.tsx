@@ -31,7 +31,7 @@ export function CloudinaryVideo({
 		<video
 			className={className}
 			autoPlay
-			src={`https://res.cloudinary.com/kentcdodds-com/video/upload/${transforms}/${cloudinaryId}`}
+			src={`https://res.cloudinary.com/imaginify/video/upload/${transforms}/${cloudinaryId}`}
 			muted
 			loop
 			controls={false}

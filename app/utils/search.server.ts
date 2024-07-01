@@ -16,7 +16,7 @@ type NormalizedItemGroup = {
 		title: string
 		segment:
 			| 'Blog Posts'
-			| 'Chats with Kent Episodes'
+			| 'Chats with James Episodes'
 			| 'Talks'
 			| 'Call Kent Podcast Episodes'
 			| 'Workshops'
@@ -95,7 +95,7 @@ export async function searchKCD({
 							episodeNumber: e.episodeNumber,
 						}),
 						title: e.title,
-						segment: 'Chats with Kent Episodes',
+						segment: 'Chats with James Episodes',
 						values: {
 							priority: [
 								e.title,

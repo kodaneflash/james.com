@@ -34,10 +34,10 @@ export const meta: MetaFunction<typeof loader, { root: RootLoaderType }> = ({
 
 	const requestInfo = matches.find((m) => m.id === 'root')?.data.requestInfo
 	const testimonialCount = testimonials ? `${testimonials.length} ` : ''
-	const title = `${testimonialCount}testimonials about Kent C. Dodds`
+	const title = `${testimonialCount}testimonials about James Archer`
 	return getSocialMetas({
 		title,
-		description: `Check out ${testimonialCount}testimonials about Kent C. Dodds and how the things he's done has helped people in their goals.`,
+		description: `Check out ${testimonialCount}testimonials about James Archer and how the things he's done has helped people in their goals.`,
 		url: getUrl(requestInfo),
 		image: getGenericSocialImage({
 			url: getDisplayUrl(requestInfo),

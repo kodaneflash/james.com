@@ -62,7 +62,7 @@ test('Call Kent recording flow', async ({ page, login }) => {
 	await expect(
 		page
 			.getByRole('banner')
-			.getByRole('heading', { level: 2, name: /calls with kent/i }),
+			.getByRole('heading', { level: 2, name: /calls with James/i }),
 	).toBeVisible({ timeout: 10_000 })
 
 	const email = await readEmail((em) => em.to.includes(user.email))

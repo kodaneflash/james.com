@@ -77,9 +77,9 @@ export const handle: KCDHandle & { id: string } = {
 
 export const meta: MetaFunction<typeof loader> = ({ data }) => {
 	const requestInfo = data?.requestInfo
-	const title = 'Kent C. Dodds'
+	const title = 'James Archer'
 	const description =
-		'Come check out how Kent C. Dodds can help you level up your career as a software engineer.'
+		'Come check out how James Archer can help you level up your career as a software engineer.'
 	return [
 		{ viewport: 'width=device-width,initial-scale=1,viewport-fit=cover' },
 		{
