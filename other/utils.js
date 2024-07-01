@@ -1,7 +1,7 @@
 const hostname =
 	process.env.GITHUB_REF_NAME === 'dev'
-		? 'kcd-staging.fly.dev'
-		: 'kentcdodds.com'
+		? 'jamesarchercom.fly.dev'
+		: 'jamesarcher.io'
 
 // try to keep this dep-free so we don't have to install deps
 export async function postRefreshCache({

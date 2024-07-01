@@ -6,8 +6,8 @@ const [currentCommitSha] = process.argv.slice(2)
 
 const baseUrl =
 	process.env.GITHUB_REF_NAME === 'dev'
-		? 'https://kcd-staging.fly.dev'
-		: 'https://kentcdodds.com'
+		? 'https://jamesarchercom.fly.dev'
+		: 'https://jamesarcher.io'
 
 async function go() {
 	const shaInfo = await fetchJson(`${baseUrl}/refresh-commit-sha.json`, {
