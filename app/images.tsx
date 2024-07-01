@@ -6,7 +6,7 @@ import { type CSSProperties } from 'react'
 import { optionalTeams, toBase64, type OptionalTeam } from './utils/misc.tsx'
 
 setConfig({
-	cloudName: 'imaginify',
+	cloudName: 'kentcdodds-com',
 })
 
 type ImageBuilder = {
@@ -746,7 +746,7 @@ function getSocialImageWithPreTitle({
 		kentNameSection,
 		urlSection,
 		featuredImageSection,
-		`c_fill,w_$tw,h_$th/jamesarcher.io/social-background.png`,
+		`c_fill,w_$tw,h_$th/kentcdodds.com/social-background.png`,
 	].join('/')
 }
 
@@ -778,7 +778,7 @@ function getGenericSocialImage({
 
 	const featureImageSection = `c_fit,g_east,w_$gw_mul_11,h_$gh_mul_11,x_$gw,${featuredImageLayerType}${featuredImageCloudinaryId}`
 
-	const backgroundSection = `c_fill,w_$tw,h_$th/jamesarcher.io/social-background.png`
+	const backgroundSection = `c_fill,w_$tw,h_$th/kentcdodds.com/social-background.png`
 	return [
 		`https://res.cloudinary.com/imaginify/image/upload`,
 		vars,

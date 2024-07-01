@@ -19,7 +19,7 @@ export default function ConvertKit() {
 				subtitle="You've signed up"
 				image={
 					<CloudinaryVideo
-						cloudinaryId="jamesarcher.io/misc/approve"
+						cloudinaryId="kentcdodds.com/misc/approve"
 						className="rounded-lg"
 						aspectRatio="3:4"
 					/>
