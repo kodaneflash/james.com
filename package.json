@@ -208,7 +208,7 @@
     "remix-flat-routes": "^0.6.5",
     "rimraf": "^5.0.7",
     "start-server-and-test": "^2.0.3",
-    "tsx": "^4.10.5",
+    "tsx": "^4.16.0",
     "typescript": "^5.4.5",
     "vite": "^5.2.11",
     "vite-env-only": "^2.4.1",
