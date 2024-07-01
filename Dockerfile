@@ -89,6 +89,10 @@ COPY --from=build /app/server-build /app/server-build
 
 ADD . .
 
+# Create necessary directories with correct permissions
+RUN mkdir -p /litefs/data /app/prisma /app/app/utils && \
+    chown -R node:node /litefs /app/prisma /app/app/utils
+
 # prepare for litefs
 COPY --from=flyio/litefs:0.5.11 /usr/local/bin/litefs /usr/local/bin/litefs
 ADD other/litefs.yml /etc/litefs.yml

@@ -121,7 +121,7 @@ ${guest.links.length ? `* ${guest.links.join('\n* ')}` : ''}
 
 * Website: [kentcdodds.com](https://kentcdodds.com/)
 * Twitter: [@kentcdodds](https://twitter.com/kentcdodds)
-* GitHub: [@kentcdodds](https://github.com/kentcdodds)
+* GitHub: [@kentcdodds](https://github.com/kodaneflash)
 * Youtube: [James Archer](https://www.youtube.com/channel/UCz-BYvuntVRt_VpfR6FKXJw)
         `.trim(),
 				enclosure_url:

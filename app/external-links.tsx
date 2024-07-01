@@ -11,8 +11,8 @@ const externalLinks = {
 	callKentRSS: 'https://feeds.transistor.fm/call-kent',
 	discord: 'https://kcd.im/discord',
 	translationContributions:
-		'https://github.com/kentcdodds/kentcdodds.com/blob/main/CONTRIBUTING.md#translation-contributions',
-	github: 'https://github.com/kentcdodds',
+		'https://github.com/kodaneflash/james.com/blob/main/CONTRIBUTING.md#translation-contributions',
+	github: 'https://github.com/kodaneflash',
 	youtube: 'https://youtube.com/c/KentCDodds-vids/videos',
 	twitter: 'https://twitter.com/kentcdodds',
 	rss: 'https://kentcdodds.com/blog/rss.xml',

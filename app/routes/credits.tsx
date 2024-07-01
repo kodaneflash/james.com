@@ -178,7 +178,7 @@ function CreditsIndex() {
 						<a
 							target="_blank"
 							rel="noreferrer noopener"
-							href="https://github.com/kentcdodds/kentcdodds.com"
+							href="https://github.com/kodaneflash/kentcdodds.com"
 						>
 							open source
 						</a>
@@ -253,11 +253,11 @@ function CreditsIndex() {
             To prepare for the launch of this website, a number of terrific
             folks reviewed and
           `}
-					<a href="https://github.com/kentcdodds/kentcdodds.com/issues?q=is%3Aissue">
+					<a href="https://github.com/kodaneflash/kentcdodds.com/issues?q=is%3Aissue">
 						opened issues
 					</a>
 					{` and even made `}
-					<a href="https://github.com/kentcdodds/kentcdodds.com/pulls?q=is%3Apr">
+					<a href="https://github.com/kodaneflash/kentcdodds.com/pulls?q=is%3Apr">
 						pull requests
 					</a>
 					{` to get it ready for launch. Thank you!`}
