@@ -101,7 +101,7 @@ export default function IndexRoute() {
 				imageBuilder={kodyFlying}
 				imageSize="giant"
 				arrowUrl="#intro"
-				arrowLabel="Learn more about Kent"
+				arrowLabel="Learn more about James"
 				action={
 					<div className="mr-auto flex flex-col gap-4">
 						<ButtonLink to="/blog" variant="primary" prefetch="intent">

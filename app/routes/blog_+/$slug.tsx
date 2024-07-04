@@ -303,7 +303,7 @@ of thousands of people how to make the world a better place with quality softwar
 development tools and practices. He lives with his wife and four kids in Utah.
           `.trim()}
 				</Paragraph>
-				<ArrowLink to="/about">Learn more about Kent</ArrowLink>
+				<ArrowLink to="/about">Learn more about James</ArrowLink>
 			</div>
 		</Grid>
 	)
@@ -521,7 +521,7 @@ export default function MdxScreen() {
 				<>
 					<HeaderSection
 						title="Want to learn more?"
-						subTitle="Join Kent in a live workshop"
+						subTitle="Join James in a live workshop"
 					/>
 					<Spacer size="2xs" />
 
