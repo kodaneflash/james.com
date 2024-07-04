@@ -19,6 +19,6 @@ export default function NotFoundPage() {
 				subtitle="This is not a page on jamesarcher.io. So sorry."
 				imageBuilder={images.bustedOnewheel}
 			/>
-		</main>a
+		</main>
 	)
 }
