@@ -604,7 +604,7 @@ export function ErrorBoundary() {
 					<ErrorPage
 						heroProps={{
 							title: "404 - Oh no, you found a page that's missing stuff.",
-							subtitle: `"${location.pathname}" is not a page on kentcdodds.com. So sorry.`,
+							subtitle: `"${location.pathname}" is not a page on jamesarcher.io. So sorry.`,
 							image: (
 								<MissingSomething className="rounded-lg" aspectRatio="3:4" />
 							),

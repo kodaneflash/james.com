@@ -171,14 +171,14 @@ function CreditsIndex() {
 				<div className="col-span-full mb-8 lg:col-span-8 lg:mb-20">
 					<H2 className="mb-8">
 						{`
-              kentcdodds.com is more than just my developer portfolio. It's a
+              jamesarcher.io is more than just my developer portfolio. It's a
               place for me to share my thoughts, ideas, and experiences as
               well as the thoughts, ideas, and experiences of others (yourself
               included). It's a full fleged–`}
 						<a
 							target="_blank"
 							rel="noreferrer noopener"
-							href="https://github.com/kodaneflash/kentcdodds.com"
+							href="https://github.com/kodaneflash/james.com"
 						>
 							open source
 						</a>

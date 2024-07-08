@@ -92,7 +92,7 @@ const mdxPageMeta: MetaFunction<MetaLoader, { root: RootLoaderType }> = ({
 			{ title: 'Not found' },
 			{
 				description:
-					'You landed on a page that Kody the Coding Koala could not find 🐨😢',
+					'You landed on a page that James the Coding Koala could not find 🐨😢',
 			},
 		]
 	}
