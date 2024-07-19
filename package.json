@@ -62,7 +62,7 @@
     "@kentcdodds/md-temp": "^8.0.1",
     "@octokit/plugin-throttling": "^9.3.0",
     "@octokit/rest": "^20.1.1",
-    "@prisma/client": "^5.14.0",
+    "@prisma/client": "^5.17.0",
     "@reach/accordion": "^0.18.0",
     "@reach/auto-id": "^0.18.0",
     "@reach/checkbox": "^0.18.0",
