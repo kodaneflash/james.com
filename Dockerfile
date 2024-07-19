@@ -45,7 +45,7 @@ ADD other/runfile.js /app/other/runfile.js
 # schema doesn't change much so these will stay cached
 ADD prisma /app/prisma
 
-RUN npx prisma generate
+RUN npx prisma generate --schema=./prisma/schema.prisma
 
 # app code changes all the time
 ADD . .
