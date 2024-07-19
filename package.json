@@ -12,7 +12,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kentcdodds/kentcdodds.com.git"
+    "url": "git+https://github.com/kodaneflash/james.com.git"
   },
   "keywords": [],
   "author": "Kent C. Dodds <me@kentcdodds.com> (https://kentcdodds.com/)",
@@ -49,7 +49,8 @@
     "setup": "npm install && prisma migrate reset --force && npm run validate && npm run prime-cache:mocks && npm run test:e2e:install && npm run test:e2e:run"
   },
   "prisma": {
-    "seed": "tsx other/runfile prisma/seed.ts"
+    "seed": "tsx other/runfile prisma/seed.ts",
+    "schema": "prisma/schema.prisma"
   },
   "dependencies": {
     "@conform-to/react": "^1.1.3",

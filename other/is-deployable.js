@@ -4,8 +4,8 @@ const [currentCommitSha] = process.argv.slice(2)
 
 const baseUrl =
 	process.env.GITHUB_REF_NAME === 'dev'
-		? 'https://jamesarchercom.fly.dev'
-		: 'https://jamesarcher.io'
+		? 'https://solofoundershub.com'
+		: 'https://solofoundershub.com'
 
 async function go() {
 	const buildInfo = await fetchJson(`${baseUrl}/build/info.json`, {

@@ -1,6 +1,6 @@
 const hostname =
 	process.env.GITHUB_REF_NAME === 'dev'
-		? 'jamesarchercom.fly.dev'
+		? 'solofoundershub.com'
 		: 'jamesarcher.io'
 
 // try to keep this dep-free so we don't have to install deps
